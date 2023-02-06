@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import { motion as m } from 'framer-motion';
 import { Container, item } from '../animation';
 
@@ -33,7 +32,7 @@ export default function Home() {
             Valmar Parts
           </m.h1>
         </div>
-        <div className='flex justify-between'>
+        <div className='flex justify-between pb-8'>
           <div>
             <h2>Applied Computer Science Student</h2>
             <h2>Front-end development focused</h2>
